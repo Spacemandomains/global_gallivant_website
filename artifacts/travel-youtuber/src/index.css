@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  /* Surface & Depth - The "Obsidian" Foundation */
+  --gg-bg-primary: #05070A;
+  --gg-bg-secondary: #0A0F1E;
+  --gg-surface-glass: rgba(255, 255, 255, 0.03);
+  --gg-surface-blur: blur(20px);
+
+  /* Brand Accents - The "Solar Flare" & "Alpine" */
+  --gg-accent-gold: #FFD700;
+  --gg-accent-gold-glow: rgba(255, 215, 0, 0.3);
+  --gg-accent-slate: #4A6572;
+
+  /* Typography - "Nomad's Clarity" */
+  --gg-text-primary: #F6F1E9;
+  --gg-text-muted: rgba(246, 241, 233, 0.6);
+
+  /* Precision Tokens */
+  --gg-radius-agentic: 40px;
+  --gg-radius-card: 24px;
+  --gg-shadow-haptic: 0 20px 50px rgba(0, 0, 0, 0.5),
+                      0 0 15px var(--gg-accent-gold-glow);
+
+  /* Animation Timing */
+  --gg-transition-fluid: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+
+  /* Legacy aliases for Tailwind theme */
+  --color-primary: #FFD700;
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--gg-bg-primary);
+  color: var(--gg-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrolling ticker keyframe */
+@keyframes ticker-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes ticker-right {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}

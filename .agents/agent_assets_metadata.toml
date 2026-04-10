@@ -1,0 +1,199 @@
+uploads = []
+
+[[generated]]
+id = "r496DwDVdy5U20jUXr6ik"
+uri = "file://artifacts/travel-youtuber/public/images/cartagena.png"
+type = "image"
+title = "generated_image"
+
+[[outputs]]
+id = "vUEr_fHf86WUdJZwxhBD3"
+uri = "file://artifacts/travel-youtuber/public/images/mountain.jpg"
+type = "image"
+title = "Cinematic shot of a hiker on a mountain peak looking at a beautiful sunrise"
+
+[[outputs]]
+id = "to54uT4tyi88Ha-pT0fRv"
+uri = "file://artifacts/travel-youtuber/public/images/tokyo.jpg"
+type = "image"
+title = "Bustling neon-lit street in Tokyo at night, cinematic photography, long exposure"
+
+[[outputs]]
+id = "zFaWHn-OZIlITvh4JhTyP"
+uri = "file://artifacts/travel-youtuber/public/images/map.jpg"
+type = "image"
+title = "Person looking at a map in a beautiful exotic city, cinematic travel photography"
+
+[[outputs]]
+id = "0WotlVWIZUGmXrQPSlgie"
+uri = "file://attached_assets/stock_images/travel_destination.jpg"
+type = "image"
+title = "African American woman traveling exploring colorful Latin American city street market vibrant"
+
+[[outputs]]
+id = "7t5p8ZlOPuoK-rO16CwBE"
+uri = "file://attached_assets/stock_images/rio.jpg"
+type = "image"
+title = "Rio de Janeiro Brazil aerial cityscape Christ the Redeemer Sugarloaf Mountain"
+
+[[outputs]]
+id = "ucWICgFc8h4e9MT1Jf0mT"
+uri = "file://attached_assets/stock_images/oranjestad.jpg"
+type = "image"
+title = "Oranjestad Aruba colorful colonial waterfront harbor aerial"
+
+[[outputs]]
+id = "rW4d5K3Q8hzi5uyMBKwRP"
+uri = "file://attached_assets/stock_images/cartagena.jpg"
+type = "image"
+title = "Cartagena Colombia aerial walled old city colorful caribbean"
+
+[[outputs]]
+id = "esEMrGbvJoWr0kVA_5E0Y"
+uri = "file://attached_assets/stock_images/san_jose_cr.jpg"
+type = "image"
+title = "San José Costa Rica downtown skyline mountains lush green"
+
+[[outputs]]
+id = "SFg6MasXA94nYmeeE93zD"
+uri = "file://attached_assets/stock_images/willemstad.jpg"
+type = "image"
+title = "Willemstad Curaçao colorful Dutch colonial waterfront Handelskade"
+
+[[outputs]]
+id = "rOxkE60IFxSsYXFKSK5rR"
+uri = "file://attached_assets/stock_images/mexico_city.jpg"
+type = "image"
+title = "Mexico City aerial skyline Zocalo cathedral at golden hour"
+
+[[outputs]]
+id = "lQT_dV77XDKDzx6rCKUmE"
+uri = "file://attached_assets/stock_images/santo_domingo.jpg"
+type = "image"
+title = "Santo Domingo Dominican Republic colonial zone historic architecture"
+
+[[outputs]]
+id = "yfPMmKNMpXu5pNd9LtiOy"
+uri = "file://attached_assets/stock_images/panama_city.jpg"
+type = "image"
+title = "Panama City skyline modern skyscrapers bay sunset"
+
+[[outputs]]
+id = "NpCsa5hXuwBswmiV8Q4UR"
+uri = "file://attached_assets/stock_images/cusco.jpg"
+type = "image"
+title = "Cusco Peru Inca ruins main square mountains golden hour"
+
+[[outputs]]
+id = "NCviRGnSUtfGkA7saQ6sy"
+uri = "file://attached_assets/stock_images/kuala_lumpur.jpg"
+type = "image"
+title = "Kuala Lumpur Malaysia Petronas Towers city skyline night"
+
+[[outputs]]
+id = "nWicJ8mwH3yS7HYI0aNR-"
+uri = "file://attached_assets/stock_images/siem_reap.jpg"
+type = "image"
+title = "Angkor Wat Cambodia sunrise temple reflection"
+
+[[outputs]]
+id = "yNicJE3xdjyhzNPvr_0D6"
+uri = "file://attached_assets/stock_images/manila.jpg"
+type = "image"
+title = "Manila Philippines Intramuros bay area skyline aerial"
+
+[[outputs]]
+id = "8km4NRY6mhzsHqT6L-JUo"
+uri = "file://attached_assets/stock_images/ho_chi_minh.jpg"
+type = "image"
+title = "Ho Chi Minh City Vietnam aerial skyline at dusk river"
+
+[[outputs]]
+id = "qgUyzQYIscZwu-Wqh_YO7"
+uri = "file://attached_assets/stock_images/addis_ababa.jpg"
+type = "image"
+title = "Addis Ababa Ethiopia city skyline modern buildings mountains"
+
+[[outputs]]
+id = "rQp5HVH4cOzUOmk1OQYcn"
+uri = "file://attached_assets/stock_images/nairobi.jpg"
+type = "image"
+title = "Nairobi Kenya skyline with savanna giraffe in foreground"
+
+[[outputs]]
+id = "qQKvRzs23cRCUC6ZYk-CX"
+uri = "file://attached_assets/stock_images/cape_town.jpg"
+type = "image"
+title = "Cape Town South Africa aerial Table Mountain harbor city"
+
+[[outputs]]
+id = "3PiXW_g2OwfVzJdpYxuPg"
+uri = "file://attached_assets/stock_images/lagos.jpg"
+type = "image"
+title = "Lagos Nigeria Victoria Island waterfront skyline aerial"
+
+[[outputs]]
+id = "WRSWvXVs3Ud1fe6xlImlu"
+uri = "file://attached_assets/stock_images/paris.jpg"
+type = "image"
+title = "Paris France Eiffel Tower aerial cityscape golden hour"
+
+[[outputs]]
+id = "W90DZlg3xn7QA38kckqWh"
+uri = "file://attached_assets/stock_images/barcelona.jpg"
+type = "image"
+title = "Barcelona Spain Sagrada Familia aerial Mediterranean sea"
+
+[[outputs]]
+id = "neIDhjD35EOljbPmxcZwD"
+uri = "file://attached_assets/stock_images/giza.jpg"
+type = "image"
+title = "Giza Egypt pyramids aerial golden desert sunset"
+
+[[outputs]]
+id = "Fs_0ptgTujsE0LPH2nQCF"
+uri = "file://attached_assets/stock_images/rental_2_interior.jpg"
+type = "image"
+title = "modern studio apartment bedroom minimalist bright natural light city view rooftop"
+
+[[outputs]]
+id = "LkCUdlE6QmGA6r8ORrXbJ"
+uri = "file://attached_assets/stock_images/rental_1_interior.jpg"
+type = "image"
+title = "luxury boutique apartment interior living room colonial style warm lighting tropical"
+
+[[outputs]]
+id = "2y-Ihpk595fAJtGA8wYJY"
+uri = "file://attached_assets/stock_images/rental_2_exterior.jpg"
+type = "image"
+title = "modern apartment kitchen dining area open plan bright airy contemporary design"
+
+[[outputs]]
+id = "NNGkhHwD6l7FezD6Wb5-w"
+uri = "file://attached_assets/stock_images/woodbury_3br_interior.jpg"
+type = "image"
+title = "modern 3 bedroom apartment interior living room luxury New York suburbs"
+
+[[outputs]]
+id = "KY60pD0IWByl7gJ5kh2q-"
+uri = "file://attached_assets/stock_images/bossa_beach_interior.jpg"
+type = "image"
+title = "beach condo interior living room cozy bright ocean theme Brazil"
+
+[[outputs]]
+id = "I8b0Ln3b4T9w3f7uAK9d-"
+uri = "file://attached_assets/stock_images/woodbury_1br_interior.jpg"
+type = "image"
+title = "modern 1 bedroom studio apartment interior bright cozy clean New York"
+
+[[outputs]]
+id = "-AtraQqmDxQuKNJ2omixj"
+uri = "file://attached_assets/stock_images/woodbury_3br_exterior.jpg"
+type = "image"
+title = "suburban modern apartment exterior building New York autumn trees"
+
+[[outputs]]
+id = "fkrxKUCTyVKYkeTEt0l5A"
+uri = "file://attached_assets/stock_images/woodbury_commons.jpg"
+type = "image"
+title = "mall shopping center exterior Woodbury Commons New York Premium Outlets"

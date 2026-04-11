@@ -201,7 +201,7 @@ export default function MerchPage() {
 
           {/* Notify CTA */}
           <a
-            href="https://www.patreon.com/internationalzoe"
+            href="https://www.youtube.com/@INTERNATIONALZOE"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 font-bold tracking-wider text-sm px-10 py-4 transition-all duration-300"
@@ -220,7 +220,7 @@ export default function MerchPage() {
               e.currentTarget.style.boxShadow = "var(--gg-shadow-haptic)";
             }}
           >
-            Follow on Patreon for Updates
+            Subscribe on YouTube for Updates
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
             </svg>

@@ -57,6 +57,15 @@ const VRBO_LINKS = [
   },
 ];
 
+const EXPEDIA_LINKS = [
+  {
+    name: "Rio de Janeiro Getaway",
+    location: "Rio de Janeiro, Brazil",
+    url: "https://expe.onelink.me/hnLd/buf59w63",
+    desc: "Zoe's pick in Rio — one of the most vibrant cities in the world. Sun, culture, energy, and the kind of place that stays with you long after you leave.",
+  },
+];
+
 const fadeUp = {
   initial: { opacity: 0, y: 32 },
   whileInView: { opacity: 1, y: 0 },
@@ -137,6 +146,88 @@ function PropertyCard({
         }}
       >
         Book on Airbnb
+        <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+        </svg>
+      </a>
+    </motion.div>
+  );
+}
+
+function ExpediaCard({
+  name,
+  location,
+  desc,
+  url,
+  delay = 0,
+}: {
+  name: string;
+  location: string;
+  desc: string;
+  url: string;
+  delay?: number;
+}) {
+  return (
+    <motion.div
+      {...fadeUp}
+      transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay }}
+      className="flex flex-col justify-between p-8 h-full"
+      style={{
+        background: "var(--gg-bg-secondary)",
+        border: "1px solid rgba(74,101,114,0.25)",
+        borderRadius: "var(--gg-radius-card)",
+        boxShadow: "var(--gg-shadow-haptic)",
+      }}
+    >
+      <div>
+        <div
+          className="inline-block text-[10px] font-bold tracking-[0.2em] uppercase px-3 py-1.5 mb-5"
+          style={{
+            background: "rgba(0,100,205,0.12)",
+            color: "#3B82F6",
+            border: "1px solid rgba(59,130,246,0.3)",
+            borderRadius: "var(--gg-radius-agentic)",
+          }}
+        >
+          Expedia · Zoe's Find
+        </div>
+        <h3
+          className="text-xl font-black tracking-tight mb-1 leading-tight"
+          style={{ fontFamily: "var(--font-display)", color: "var(--gg-text-primary)" }}
+        >
+          {name}
+        </h3>
+        <p className="text-xs font-semibold tracking-wider mb-4" style={{ color: "#3B82F6", opacity: 0.85 }}>
+          {location}
+        </p>
+        <p className="text-sm leading-relaxed" style={{ color: "var(--gg-text-muted)" }}>
+          {desc}
+        </p>
+      </div>
+
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-8 inline-flex items-center justify-center gap-2 font-bold tracking-wider text-sm py-3.5 px-6 transition-all duration-300 w-full"
+        style={{
+          background: "transparent",
+          color: "#3B82F6",
+          border: "1px solid rgba(59,130,246,0.4)",
+          borderRadius: "var(--gg-radius-agentic)",
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.background = "rgba(59,130,246,0.1)";
+          e.currentTarget.style.borderColor = "#3B82F6";
+          e.currentTarget.style.transform = "translateY(-2px)";
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.background = "transparent";
+          e.currentTarget.style.borderColor = "rgba(59,130,246,0.4)";
+          e.currentTarget.style.transform = "translateY(0)";
+        }}
+      >
+        Book on Expedia
         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
         </svg>
@@ -298,6 +389,7 @@ export default function RentalsPage() {
             {[
               { label: "Airbnb", color: "#FF5A5F" },
               { label: "VRBO", color: "#4BA3C3" },
+              { label: "Expedia", color: "#3B82F6" },
             ].map(({ label, color }) => (
               <span
                 key={label}
@@ -366,6 +458,31 @@ export default function RentalsPage() {
         </div>
       </div>
 
+      {/* Expedia Section */}
+      <div className="max-w-6xl mx-auto px-6 md:px-16 pb-16">
+        <motion.div
+          {...fadeUp}
+          className="flex items-center gap-4 mb-8"
+        >
+          <div
+            className="flex items-center gap-2.5 text-sm font-bold tracking-[0.25em] uppercase"
+            style={{ color: "#3B82F6" }}
+          >
+            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm1 15H9v-2h1v-4H9V9h3v6h1v2zm-1-8a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            </svg>
+            Expedia Finds
+          </div>
+          <div className="flex-1 h-px" style={{ background: "rgba(59,130,246,0.2)" }} />
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {EXPEDIA_LINKS.map((e, i) => (
+            <ExpediaCard key={e.url} {...e} delay={i * 0.1} />
+          ))}
+        </div>
+      </div>
+
       {/* Notice */}
       <div className="max-w-6xl mx-auto px-6 md:px-16 pb-24">
         <motion.div
@@ -391,7 +508,7 @@ export default function RentalsPage() {
           <div>
             <strong style={{ color: "var(--gg-text-primary)" }}>Booking Policy</strong>
             <p className="mt-1 leading-relaxed">
-              All bookings are completed directly through Airbnb or VRBO. Pricing, availability, and
+              All bookings are completed directly through Airbnb, VRBO, or Expedia. Pricing, availability, and
               cancellation policies are set and managed by those platforms. Global Gallivant does not
               process payments or issue refunds for rental bookings. See our{" "}
               <a href="/terms" style={{ color: "var(--gg-accent-gold)" }}>

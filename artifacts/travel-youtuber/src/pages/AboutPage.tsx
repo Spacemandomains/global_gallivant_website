@@ -250,6 +250,87 @@ export default function AboutPage() {
         </div>
       </div>
 
+      {/* GPT Store */}
+      <div className="pb-20 px-6 md:px-16">
+        <div className="max-w-3xl mx-auto text-center">
+          <div
+            className="inline-block text-[10px] font-bold tracking-[0.35em] uppercase px-4 py-2 mb-8"
+            style={{
+              background: "rgba(255,215,0,0.08)",
+              border: "1px solid rgba(255,215,0,0.3)",
+              color: "var(--gg-accent-gold)",
+              borderRadius: "var(--gg-radius-agentic)",
+            }}
+          >
+            AI Travel Assistant
+          </div>
+          <h2
+            className="text-3xl md:text-4xl font-black tracking-tight mb-4"
+            style={{ fontFamily: "var(--font-display)" }}
+          >
+            Global Gallivant GPT
+          </h2>
+          <p className="mb-10 text-sm leading-relaxed" style={{ color: "var(--gg-text-muted)" }}>
+            Available now in the{" "}
+            <strong style={{ color: "var(--gg-text-primary)" }}>Explore GPT Store</strong>{" "}
+            — your AI travel companion built on the Global Gallivant ethos. Plan like a local,
+            move with intention, discover every city deeper.
+          </p>
+
+          <a
+            href="https://chatgpt.com/g/g-67f6e1ec2bc88191b36bb783ee440c4d-global-gallivant"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative block mx-auto rounded-3xl overflow-hidden transition-all duration-300"
+            style={{
+              maxWidth: 560,
+              border: "1px solid rgba(255,215,0,0.2)",
+              boxShadow: "0 24px 60px rgba(0,0,0,0.5), 0 0 40px rgba(255,215,0,0.05)",
+            }}
+            onMouseEnter={(e) => {
+              (e.currentTarget as HTMLElement).style.boxShadow =
+                "0 32px 80px rgba(0,0,0,0.6), 0 0 60px rgba(255,215,0,0.12)";
+              (e.currentTarget as HTMLElement).style.transform = "translateY(-4px)";
+            }}
+            onMouseLeave={(e) => {
+              (e.currentTarget as HTMLElement).style.boxShadow =
+                "0 24px 60px rgba(0,0,0,0.5), 0 0 40px rgba(255,215,0,0.05)";
+              (e.currentTarget as HTMLElement).style.transform = "translateY(0)";
+            }}
+          >
+            <img
+              src="/gpt-store.png"
+              alt="Global Gallivant GPT in the ChatGPT Explore store"
+              className="w-full h-auto block"
+              style={{ display: "block" }}
+            />
+            {/* Hover overlay */}
+            <div
+              className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              style={{ background: "rgba(5,7,10,0.55)" }}
+            >
+              <span
+                className="flex items-center gap-2 font-bold text-sm tracking-widest uppercase px-6 py-3"
+                style={{
+                  background: "var(--gg-accent-gold)",
+                  color: "#05070A",
+                  borderRadius: "var(--gg-radius-agentic)",
+                }}
+              >
+                Try It on ChatGPT
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </span>
+            </div>
+          </a>
+
+          <p className="mt-5 text-xs tracking-wider" style={{ color: "var(--gg-text-muted)", opacity: 0.55 }}>
+            Available in the ChatGPT Explore GPT Store · Built by Kamal Nuru
+          </p>
+        </div>
+      </div>
+
       {/* CTA */}
       <div className="pb-24 px-6 md:px-16">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row gap-4 items-center justify-center">

@@ -15,7 +15,7 @@ const DESTINATIONS = [
 
 const STATS = [
   { value: "50", label: "Countries" },
-  { value: "100", label: "Cities" },
+  { value: "150", label: "Cities" },
   { value: "5", label: "Continents" },
   { value: "1,800", label: "Videos" },
 ];

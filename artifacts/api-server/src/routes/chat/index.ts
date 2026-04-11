@@ -26,11 +26,12 @@ Europe & North Africa: France (Paris), Spain (Barcelona), Egypt (Giza)
 Your tone: Warm, knowledgeable, enthusiastic about travel. You're like a well-traveled friend who genuinely wants to help. Be concise but engaging — keep responses under 200 words unless asked for detail. Always end with a relevant call to action (book a consultation, grab a guide, browse rentals, or shop merch).`;
 
 function getOpenAI() {
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = process.env.AI_INTEGRATIONS_OPENAI_API_KEY ?? process.env.OPENAI_API_KEY;
   if (!apiKey) {
     throw new Error("OPENAI_API_KEY is not set");
   }
-  return new OpenAI({ apiKey });
+  const baseURL = process.env.AI_INTEGRATIONS_OPENAI_BASE_URL ?? undefined;
+  return new OpenAI({ apiKey, ...(baseURL ? { baseURL } : {}) });
 }
 
 chatRouter.post("/chat", async (req, res) => {

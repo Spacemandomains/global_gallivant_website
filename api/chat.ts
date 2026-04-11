@@ -76,7 +76,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     if (!response.ok) {
       const errText = await response.text();
-      res.write(`data: ${JSON.stringify({ error: `OpenAI ${response.status}: ${errText.slice(0, 300)}` })}\n\n`);
+      console.error("OpenAI error:", response.status, errText);
+      res.write(`data: ${JSON.stringify({ error: "Something went wrong. Please try again." })}\n\n`);
       res.end();
       return;
     }

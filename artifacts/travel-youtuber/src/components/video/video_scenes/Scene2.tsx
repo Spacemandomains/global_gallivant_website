@@ -76,7 +76,7 @@ export function Scene2() {
               animate={phase >= 1 ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
               transition={{ type: 'spring', stiffness: 300, damping: 20 }}
             >
-              20
+              50
             </motion.div>
             <motion.div
               className="text-[1.4vw] font-bold tracking-widest uppercase mt-1 text-white/70"
@@ -103,7 +103,7 @@ export function Scene2() {
               animate={phase >= 2 ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
               transition={{ type: 'spring', stiffness: 300, damping: 20 }}
             >
-              39
+              100
             </motion.div>
             <motion.div
               className="text-[1.4vw] font-bold tracking-widest uppercase mt-1 text-white/70"

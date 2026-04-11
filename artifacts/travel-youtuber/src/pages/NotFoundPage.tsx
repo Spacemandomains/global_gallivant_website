@@ -108,7 +108,7 @@ export default function NotFoundPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.35 }}
         >
-          This page doesn't exist — but 20 countries worth of content does.
+          This page doesn't exist — but 50 countries worth of content does.
           Start with the channel, or head back home.
         </motion.p>
 

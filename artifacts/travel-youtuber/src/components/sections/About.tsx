@@ -108,7 +108,7 @@ export default function About() {
 
             <div className="space-y-4">
               <p className="text-base leading-relaxed" style={{ color: "var(--gg-text-muted)" }}>
-                Zoe isn't your typical travel content creator — she's a full-time global citizen who has spent years living in, working from, and deeply exploring 20 countries across 4 continents.
+                Zoe isn't your typical travel content creator — she's a full-time global citizen who has spent years living in, working from, and deeply exploring 50 countries across 4 continents.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "var(--gg-text-muted)" }}>
                 From the street food stalls of Ho Chi Minh City to the colonial plazas of Cartagena, every recommendation, guide, and consultation comes from places she's actually walked, eaten, slept, and gotten lost in.

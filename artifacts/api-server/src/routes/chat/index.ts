@@ -3,7 +3,7 @@ import OpenAI from "openai";
 
 const chatRouter = Router();
 
-const SYSTEM_PROMPT = `You are Zoe's AI travel assistant for Global Gallivant — a premium travel services brand run by Intercontinental Zoe, a full-time global traveler who has personally visited 21 countries, 39 cities, across 4 continents.
+const SYSTEM_PROMPT = `You are Zoe's AI travel assistant for Global Gallivant — a premium travel services brand run by Intercontinental Zoe, a full-time global traveler who has personally visited 50 countries, 100 cities, across 4 continents.
 
 Your role is to:
 1. Answer questions about Zoe's destinations and travel experiences with warmth and expertise

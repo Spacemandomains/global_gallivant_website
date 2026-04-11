@@ -9,10 +9,11 @@ const SERVICES = [
       </svg>
     ),
     title: "Travel Consultations",
-    price: "From $99",
+    price: "$150 · 15 min",
     description:
-      "1-on-1 personalized sessions with Zoe. Get insider routes, budget breakdowns, safety tips, and a custom itinerary built around your travel style — from someone who's actually been there.",
+      "A focused 15-minute 1-on-1 session with Zoe. Get insider routes, budget breakdowns, safety tips, and a custom itinerary built around your travel style — from someone who's actually been there.",
     cta: "Book a Session",
+    href: "/consultation",
     featured: true,
   },
   {

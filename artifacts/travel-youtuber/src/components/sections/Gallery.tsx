@@ -143,7 +143,7 @@ export default function Gallery() {
             </p>
           </div>
           <a
-            href="#consultations"
+            href="/consultation"
             className="shrink-0 font-bold tracking-wider px-10 py-4 text-sm"
             style={{
               background: "var(--gg-accent-gold)",
@@ -153,7 +153,7 @@ export default function Gallery() {
               transition: "var(--gg-transition-fluid)",
             }}
           >
-            Book a Consultation
+            Book a Consultation · $150
           </a>
         </motion.div>
       </div>

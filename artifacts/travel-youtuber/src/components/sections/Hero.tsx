@@ -220,7 +220,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 1 }}
         >
           <a
-            href="#consultations"
+            href="/consultation"
             className="font-bold tracking-wider px-10 py-4 text-sm"
             style={{
               background: "var(--gg-accent-gold)",
@@ -230,7 +230,7 @@ export default function Hero() {
               transition: "var(--gg-transition-fluid)",
             }}
           >
-            Book a Consultation
+            Book a Consultation · $150
           </a>
           <a
             href="#guides"

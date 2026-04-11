@@ -30,7 +30,7 @@ export default function AboutPage() {
         }}
       >
         <a href="/" aria-label="Home">
-          <img src="/logo.png" alt="Global Gallivant" className="h-28 w-auto object-contain drop-shadow-lg" />
+          <img src="/logo.png" alt="Global Gallivant" className="h-11 w-auto object-contain drop-shadow-lg" />
         </a>
         <a
           href="/"

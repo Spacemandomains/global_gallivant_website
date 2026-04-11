@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { useState, useEffect, useRef, useCallback } from "react";
 
 const NAV_LINKS = [
-  { label: "Consultations", href: "#consultations" },
-  { label: "Guides", href: "#guides" },
+  { label: "Consultations", href: "/consultation" },
+  { label: "Guides", href: "https://www.patreon.com/internationalzoe/shop", external: true },
   { label: "Rentals", href: "/rentals" },
   { label: "About", href: "#about" },
-  { label: "Destinations", href: "#destinations" },
+  { label: "Destinations", href: "https://www.youtube.com/@INTERNATIONALZOE/playlists", external: true },
   { label: "Ask Zoe", href: "#ask-zoe" },
 ];
 
@@ -139,6 +139,8 @@ export default function Hero() {
             <a
               key={link.href}
               href={link.href}
+              target={link.external ? "_blank" : undefined}
+              rel={link.external ? "noopener noreferrer" : undefined}
               className="text-sm font-semibold tracking-widest uppercase transition-colors duration-300"
               style={{ color: "var(--gg-text-muted)", transition: "var(--gg-transition-fluid)" }}
               onMouseEnter={(e) => (e.currentTarget.style.color = "var(--gg-accent-gold)")}
@@ -150,7 +152,7 @@ export default function Hero() {
         </div>
 
         <a
-          href="#consultations"
+          href="/consultation"
           className="hidden md:block text-sm font-bold tracking-wider px-6 py-3 transition-all duration-300"
           style={{
             background: "var(--gg-accent-gold)",

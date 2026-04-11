@@ -1,12 +1,12 @@
 const LINKS = {
   Services: [
-    { label: "Travel Consultations", href: "#consultations" },
+    { label: "Travel Consultations", href: "/consultation" },
     { label: "Travel Guides", href: "https://www.patreon.com/internationalzoe/shop" },
     { label: "Local Rentals", href: "/rentals" },
     { label: "Merchandise", href: "#merch" },
   ],
   Explore: [
-    { label: "Destinations", href: "#destinations" },
+    { label: "Destinations", href: "https://www.youtube.com/@INTERNATIONALZOE/playlists" },
     { label: "From the Road", href: "#" },
     { label: "About Zoe", href: "#" },
     { label: "Contact", href: "#" },
@@ -57,6 +57,8 @@ export default function Footer() {
                   <li key={link.label}>
                     <a
                       href={link.href}
+                      target={link.href.startsWith("http") ? "_blank" : undefined}
+                      rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
                       className="text-sm transition-colors duration-200"
                       style={{ color: "var(--gg-text-muted)", transition: "var(--gg-transition-fluid)" }}
                       onMouseEnter={(e) => (e.currentTarget.style.color = "var(--gg-accent-gold)")}

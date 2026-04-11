@@ -194,18 +194,21 @@ export default function Hero() {
         animate={loaded ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.7, ease: "easeOut" }}
       >
-        <div>
-          <div
-            className="font-black tracking-tighter text-xl leading-none"
-            style={{ fontFamily: "var(--font-display)", color: "var(--gg-text-primary)" }}
-          >
-            GLOBAL GALLIVANT
-          </div>
-          <div
-            className="text-[10px] tracking-[0.25em] uppercase mt-0.5"
-            style={{ color: "var(--gg-accent-gold)", opacity: 0.7 }}
-          >
-            by Intercontinental Zoe
+        <div className="flex items-center gap-3">
+          <img src="/logo.png" alt="GG Logo" className="w-12 h-12 object-contain drop-shadow-lg" />
+          <div>
+            <div
+              className="font-black tracking-tighter text-xl leading-none"
+              style={{ fontFamily: "var(--font-display)", color: "var(--gg-text-primary)" }}
+            >
+              GLOBAL GALLIVANT
+            </div>
+            <div
+              className="text-[10px] tracking-[0.25em] uppercase mt-0.5"
+              style={{ color: "var(--gg-accent-gold)", opacity: 0.7 }}
+            >
+              by Intercontinental Zoe
+            </div>
           </div>
         </div>
 
@@ -243,16 +246,6 @@ export default function Hero() {
 
       {/* Hero content */}
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6">
-        {/* Site logo */}
-        <motion.img
-          src="/logo.png"
-          alt="Global Gallivant logo"
-          className="w-40 md:w-52 mb-2 drop-shadow-2xl"
-          initial={{ opacity: 0, scale: 0.85 }}
-          animate={loaded ? { opacity: 1, scale: 1 } : {}}
-          transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
-        />
-
         <motion.div
           className="text-sm font-bold tracking-[0.4em] uppercase mb-6"
           style={{ color: "var(--gg-accent-gold)" }}

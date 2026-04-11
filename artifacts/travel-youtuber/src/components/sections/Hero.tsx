@@ -243,6 +243,16 @@ export default function Hero() {
 
       {/* Hero content */}
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6">
+        {/* Site logo */}
+        <motion.img
+          src="/logo.png"
+          alt="Global Gallivant logo"
+          className="w-40 md:w-52 mb-2 drop-shadow-2xl"
+          initial={{ opacity: 0, scale: 0.85 }}
+          animate={loaded ? { opacity: 1, scale: 1 } : {}}
+          transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
+        />
+
         <motion.div
           className="text-sm font-bold tracking-[0.4em] uppercase mb-6"
           style={{ color: "var(--gg-accent-gold)" }}

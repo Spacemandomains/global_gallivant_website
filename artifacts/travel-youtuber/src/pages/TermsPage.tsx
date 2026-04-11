@@ -1,18 +1,33 @@
 export default function TermsPage() {
   return (
     <div
-      className="min-h-screen py-24 px-6 md:px-16"
+      className="min-h-screen"
       style={{ background: "var(--gg-bg-primary)", color: "var(--gg-text-primary)" }}
     >
-      <div className="max-w-3xl mx-auto">
-        {/* Back */}
+      {/* Nav */}
+      <div
+        className="sticky top-0 z-50 flex items-center justify-between px-6 md:px-16 py-4"
+        style={{
+          background: "rgba(5,7,10,0.85)",
+          backdropFilter: "blur(16px)",
+          borderBottom: "1px solid rgba(74,101,114,0.15)",
+        }}
+      >
+        <a href="/" aria-label="Home">
+          <img src="/logo.png" alt="Global Gallivant" className="h-14 w-auto object-contain drop-shadow-lg" />
+        </a>
         <a
           href="/"
-          className="inline-flex items-center gap-2 text-sm font-semibold tracking-widest uppercase mb-12 transition-colors duration-200"
-          style={{ color: "var(--gg-accent-gold)" }}
+          className="text-xs font-bold tracking-widest uppercase transition-colors duration-200 flex items-center gap-2"
+          style={{ color: "var(--gg-text-muted)" }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = "var(--gg-accent-gold)")}
+          onMouseLeave={(e) => (e.currentTarget.style.color = "var(--gg-text-muted)")}
         >
           ← Back to Global Gallivant
         </a>
+      </div>
+      <div className="px-6 md:px-16 py-16">
+      <div className="max-w-3xl mx-auto">
 
         <div
           className="text-xs font-bold tracking-[0.4em] uppercase mb-4"
@@ -237,6 +252,7 @@ export default function TermsPage() {
             </p>
           </section>
         </div>
+      </div>
       </div>
     </div>
   );

@@ -328,19 +328,8 @@ export default function RentalsPage() {
           borderBottom: "1px solid rgba(74,101,114,0.15)",
         }}
       >
-        <a href="/" style={{ textDecoration: "none" }}>
-          <div
-            className="font-black tracking-tighter text-lg leading-none"
-            style={{ fontFamily: "var(--font-display)", color: "var(--gg-text-primary)" }}
-          >
-            GLOBAL GALLIVANT
-          </div>
-          <div
-            className="text-[9px] tracking-[0.25em] uppercase"
-            style={{ color: "var(--gg-accent-gold)", opacity: 0.7 }}
-          >
-            by Intercontinental Zoe
-          </div>
+        <a href="/" aria-label="Home">
+          <img src="/logo.png" alt="Global Gallivant" className="h-14 w-auto object-contain drop-shadow-lg" />
         </a>
         <a
           href="/"

@@ -195,7 +195,7 @@ export default function Hero() {
         transition={{ duration: 0.7, ease: "easeOut" }}
       >
         <div className="flex items-center">
-          <img src="/logo.png" alt="GG Logo" className="w-14 h-14 object-contain drop-shadow-lg" />
+          <img src="/logo.png" alt="Global Gallivant" className="h-16 w-auto object-contain drop-shadow-lg" />
         </div>
 
         <div className="hidden md:flex items-center gap-8">

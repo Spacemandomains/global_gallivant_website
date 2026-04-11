@@ -72,20 +72,27 @@ export default function ConsultationPage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--gg-bg-primary)", color: "var(--gg-text-primary)" }}>
 
-      {/* Nav back */}
-      <div className="px-6 md:px-16 pt-8">
-        <button
-          onClick={() => navigate("/")}
-          className="inline-flex items-center gap-2 text-sm font-medium transition-colors"
+      {/* Nav */}
+      <div
+        className="sticky top-0 z-50 flex items-center justify-between px-6 md:px-16 py-4"
+        style={{
+          background: "rgba(5,7,10,0.85)",
+          backdropFilter: "blur(16px)",
+          borderBottom: "1px solid rgba(74,101,114,0.15)",
+        }}
+      >
+        <a href="/" aria-label="Home">
+          <img src="/logo.png" alt="Global Gallivant" className="h-14 w-auto object-contain drop-shadow-lg" />
+        </a>
+        <a
+          href="/"
+          className="text-xs font-bold tracking-widest uppercase transition-colors duration-200 flex items-center gap-2"
           style={{ color: "var(--gg-text-muted)" }}
-          onMouseEnter={e => (e.currentTarget.style.color = "var(--gg-accent-gold)")}
-          onMouseLeave={e => (e.currentTarget.style.color = "var(--gg-text-muted)")}
+          onMouseEnter={(e) => (e.currentTarget.style.color = "var(--gg-accent-gold)")}
+          onMouseLeave={(e) => (e.currentTarget.style.color = "var(--gg-text-muted)")}
         >
-          <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
-          </svg>
-          Back to Global Gallivant
-        </button>
+          ← Back to Global Gallivant
+        </a>
       </div>
 
       <div className="max-w-5xl mx-auto px-6 md:px-16 py-16">

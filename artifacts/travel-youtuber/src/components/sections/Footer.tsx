@@ -8,7 +8,7 @@ const LINKS = {
   Explore: [
     { label: "Destinations", href: "https://www.youtube.com/@INTERNATIONALZOE/playlists" },
     { label: "From the Road", href: "#" },
-    { label: "About Zoe", href: "#" },
+    { label: "About Zoe", href: "/about" },
     { label: "Contact", href: "#" },
   ],
 };

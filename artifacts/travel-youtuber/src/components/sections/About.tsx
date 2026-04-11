@@ -62,7 +62,7 @@ export default function About() {
                 className="text-3xl font-black leading-none"
                 style={{ fontFamily: "var(--font-display)", color: "#05070A" }}
               >
-                20
+                50
               </div>
               <div className="text-xs font-bold tracking-widest uppercase" style={{ color: "#05070A", opacity: 0.7 }}>
                 Countries
@@ -120,7 +120,7 @@ export default function About() {
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <a
-                href="#consultations"
+                href="/consultation"
                 className="font-bold tracking-wider px-8 py-4 text-sm text-center"
                 style={{
                   background: "var(--gg-accent-gold)",

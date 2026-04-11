@@ -39,6 +39,15 @@ const SOCIAL_LINKS = [
     ),
   },
   {
+    label: "Kick",
+    href: "https://kick.com/internationalzoe",
+    icon: (
+      <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M2 2h4v6.5L10.5 2H16l-6 8 6 8h-5.5L6 11.5V18H2V2z M17 2h5v20h-5V2z"/>
+      </svg>
+    ),
+  },
+  {
     label: "Rumble",
     href: "https://www.rumble.com/internationalzoe",
     icon: (

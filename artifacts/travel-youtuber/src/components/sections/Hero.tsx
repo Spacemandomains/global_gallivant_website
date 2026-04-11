@@ -279,43 +279,6 @@ export default function Hero() {
           </motion.h1>
         </div>
 
-        {/* Social icons under GALLIVANT */}
-        <motion.div
-          className="flex items-center gap-3 mb-8"
-          initial={{ opacity: 0, y: 10 }}
-          animate={loaded ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6, delay: 0.7 }}
-        >
-          {SOCIAL_LINKS.map((s) => (
-            <a
-              key={s.href}
-              href={s.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={s.label}
-              className="flex items-center justify-center w-8 h-8 rounded-full transition-all duration-200"
-              style={{
-                color: "rgba(255,255,255,0.5)",
-                border: "1px solid rgba(255,255,255,0.15)",
-                background: "rgba(5,7,10,0.35)",
-                backdropFilter: "blur(8px)",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.color = "var(--gg-accent-gold)";
-                e.currentTarget.style.borderColor = "var(--gg-accent-gold)";
-                e.currentTarget.style.background = "rgba(255,215,0,0.08)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.color = "rgba(255,255,255,0.5)";
-                e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
-                e.currentTarget.style.background = "rgba(5,7,10,0.35)";
-              }}
-            >
-              {s.icon}
-            </a>
-          ))}
-        </motion.div>
-
         <motion.p
           className="text-lg max-w-xl leading-relaxed mb-10"
           style={{ color: "var(--gg-text-muted)" }}

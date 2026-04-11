@@ -14,10 +14,10 @@ const DESTINATIONS = [
 ];
 
 const STATS = [
-  { value: "20", label: "Countries" },
-  { value: "39", label: "Cities" },
-  { value: "4", label: "Continents" },
-  { value: "100+", label: "Videos" },
+  { value: "50", label: "Countries" },
+  { value: "100", label: "Cities" },
+  { value: "5", label: "Continents" },
+  { value: "1,800", label: "Videos" },
 ];
 
 const CITY_SLIDES = [

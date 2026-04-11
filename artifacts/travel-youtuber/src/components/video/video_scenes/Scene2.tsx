@@ -49,7 +49,8 @@ export function Scene2() {
       setTimeout(() => setPhase(1), 300),
       setTimeout(() => setPhase(2), 900),
       setTimeout(() => setPhase(3), 1500),
-      setTimeout(() => setPhase(4), 2200),
+      setTimeout(() => setPhase(4), 2100),
+      setTimeout(() => setPhase(5), 2700),
     ];
     return () => timers.forEach(t => clearTimeout(t));
   }, []);
@@ -130,7 +131,7 @@ export function Scene2() {
               animate={phase >= 3 ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
               transition={{ type: 'spring', stiffness: 300, damping: 20 }}
             >
-              4
+              5
             </motion.div>
             <motion.div
               className="text-[1.4vw] font-bold tracking-widest uppercase mt-1 text-white/70"
@@ -139,6 +140,33 @@ export function Scene2() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               Continents
+            </motion.div>
+          </div>
+
+          <motion.div
+            className="w-[1px] h-[7vw] bg-white/20"
+            initial={{ scaleY: 0 }}
+            animate={phase >= 4 ? { scaleY: 1 } : { scaleY: 0 }}
+            transition={{ duration: 0.5 }}
+          />
+
+          <div>
+            <motion.div
+              className="text-[9vw] font-black text-white leading-none"
+              style={{ fontFamily: 'var(--font-display)' }}
+              initial={{ opacity: 0, scale: 0.5, originX: 0 }}
+              animate={phase >= 4 ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
+              transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+            >
+              1800
+            </motion.div>
+            <motion.div
+              className="text-[1.4vw] font-bold tracking-widest uppercase mt-1 text-white/70"
+              initial={{ opacity: 0, x: -20 }}
+              animate={phase >= 4 ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              Videos
             </motion.div>
           </div>
         </div>
@@ -155,7 +183,7 @@ export function Scene2() {
         <motion.div
           className="overflow-hidden w-full"
           initial={{ opacity: 0 }}
-          animate={phase >= 4 ? { opacity: 1 } : { opacity: 0 }}
+          animate={phase >= 5 ? { opacity: 1 } : { opacity: 0 }}
           transition={{ duration: 0.6 }}
         >
           {/* Row 1 — scrolls left */}

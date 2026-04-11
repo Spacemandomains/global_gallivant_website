@@ -194,22 +194,8 @@ export default function Hero() {
         animate={loaded ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.7, ease: "easeOut" }}
       >
-        <div className="flex items-center gap-3">
-          <img src="/logo.png" alt="GG Logo" className="w-12 h-12 object-contain drop-shadow-lg" />
-          <div>
-            <div
-              className="font-black tracking-tighter text-xl leading-none"
-              style={{ fontFamily: "var(--font-display)", color: "var(--gg-text-primary)" }}
-            >
-              GLOBAL GALLIVANT
-            </div>
-            <div
-              className="text-[10px] tracking-[0.25em] uppercase mt-0.5"
-              style={{ color: "var(--gg-accent-gold)", opacity: 0.7 }}
-            >
-              by Intercontinental Zoe
-            </div>
-          </div>
+        <div className="flex items-center">
+          <img src="/logo.png" alt="GG Logo" className="w-14 h-14 object-contain drop-shadow-lg" />
         </div>
 
         <div className="hidden md:flex items-center gap-8">

@@ -89,7 +89,7 @@ const NAV_LINKS = [
   { label: "Consultations", href: "/consultation" },
   { label: "Guides", href: "https://www.patreon.com/internationalzoe/shop", external: true },
   { label: "Rentals", href: "/rentals" },
-  { label: "About", href: "#about" },
+  { label: "About", href: "/about" },
   { label: "Destinations", href: "https://www.youtube.com/@INTERNATIONALZOE/playlists", external: true },
   { label: "Ask Zoe", href: "#ask-zoe" },
 ];

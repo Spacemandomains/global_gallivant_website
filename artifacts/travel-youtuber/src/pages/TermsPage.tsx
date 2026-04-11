@@ -229,10 +229,10 @@ export default function TermsPage() {
             <p>
               Questions about these Terms? Contact us at{" "}
               <a
-                href="mailto:hello@globalgallivant.com"
+                href="mailto:globalgallivantzoe@gmail.com"
                 style={{ color: "var(--gg-accent-gold)" }}
               >
-                hello@globalgallivant.com
+                globalgallivantzoe@gmail.com
               </a>.
             </p>
           </section>

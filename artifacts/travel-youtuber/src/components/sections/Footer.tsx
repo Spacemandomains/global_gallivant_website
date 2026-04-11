@@ -85,7 +85,7 @@ export default function Footer() {
             {[
               { label: "Privacy", href: "/privacy" },
               { label: "Terms", href: "/terms" },
-              { label: "Contact", href: "mailto:hello@globalgallivant.com" },
+              { label: "Contact", href: "mailto:globalgallivantzoe@gmail.com" },
             ].map((item) => (
               <a
                 key={item.label}

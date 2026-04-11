@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const STATS = [
   { value: "50", label: "Countries" },
   { value: "5", label: "Continents" },
-  { value: "100", label: "Cities" },
+  { value: "150", label: "Cities" },
   { value: "1,800", label: "Videos" },
 ];
 

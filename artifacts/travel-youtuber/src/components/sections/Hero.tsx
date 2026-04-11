@@ -250,7 +250,7 @@ export default function Hero() {
           animate={loaded ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          50 Countries · 100 Cities · 5 Continents · 1,800 Videos
+          50 Countries · 150 Cities · 5 Continents · 1,800 Videos
         </motion.div>
 
         <div className="overflow-hidden mb-2">

@@ -58,6 +58,7 @@ const SERVICES = [
     description:
       "Global Gallivant branded apparel, accessories, and travel gear. Built for the road. Designed for the traveler who moves with intention.",
     cta: "Shop Now",
+    href: "/merch",
     featured: false,
   },
 ];

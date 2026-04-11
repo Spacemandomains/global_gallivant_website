@@ -133,7 +133,9 @@ export default function About() {
                 Book a Session with Zoe
               </a>
               <a
-                href="#destinations"
+                href="https://www.youtube.com/@INTERNATIONALZOE/playlists"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-bold tracking-wider px-8 py-4 text-sm text-center"
                 style={{
                   border: "1px solid var(--gg-accent-slate)",

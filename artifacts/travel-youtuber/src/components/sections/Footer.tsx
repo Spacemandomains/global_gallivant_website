@@ -3,7 +3,7 @@ const LINKS = {
     { label: "Travel Consultations", href: "/consultation" },
     { label: "Travel Guides", href: "https://www.patreon.com/internationalzoe/shop" },
     { label: "Local Rentals", href: "/rentals" },
-    { label: "Merchandise", href: "#merch" },
+    { label: "Merchandise", href: "/merch" },
   ],
   Explore: [
     { label: "Destinations", href: "https://www.youtube.com/@INTERNATIONALZOE/playlists" },

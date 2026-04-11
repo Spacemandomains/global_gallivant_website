@@ -6,6 +6,7 @@ import NotFoundPage from "@/pages/NotFoundPage";
 import RentalsPage from "@/pages/RentalsPage";
 import ConsultationPage from "@/pages/ConsultationPage";
 import AboutPage from "@/pages/AboutPage";
+import MerchPage from "@/pages/MerchPage";
 
 function getRoute() {
   const path = window.location.pathname.replace(/\/$/, "") || "/";
@@ -14,6 +15,7 @@ function getRoute() {
   if (path.endsWith("/rentals")) return "rentals";
   if (path.endsWith("/consultation")) return "consultation";
   if (path.endsWith("/about")) return "about";
+  if (path.endsWith("/merch")) return "merch";
   if (path === "/" || path === "") return "home";
   return "404";
 }
@@ -32,6 +34,7 @@ export default function App() {
   if (route === "rentals") return <RentalsPage />;
   if (route === "consultation") return <ConsultationPage />;
   if (route === "about") return <AboutPage />;
+  if (route === "merch") return <MerchPage />;
   if (route === "404") return <NotFoundPage />;
   return <LandingPage />;
 }

@@ -28,6 +28,7 @@ const SERVICES = [
     description:
       "In-depth digital guides for every destination Zoe has visited. Neighborhoods, hidden restaurants, transport hacks, safety notes, and must-see spots — no fluff, just what actually works.",
     cta: "Get a Guide",
+    href: "https://www.patreon.com/internationalzoe/shop",
     featured: false,
   },
   {
@@ -152,6 +153,8 @@ export default function Services() {
 
               <a
                 href={(service as { href?: string }).href ?? `#${service.id}`}
+                target={((service as { href?: string }).href ?? "").startsWith("http") ? "_blank" : undefined}
+                rel={((service as { href?: string }).href ?? "").startsWith("http") ? "noopener noreferrer" : undefined}
                 className="inline-flex items-center gap-2 text-sm font-bold tracking-wider w-fit"
                 style={{
                   background: service.featured ? "var(--gg-accent-gold)" : "transparent",

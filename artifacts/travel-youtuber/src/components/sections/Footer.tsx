@@ -1,7 +1,7 @@
 const LINKS = {
   Services: [
     { label: "Travel Consultations", href: "#consultations" },
-    { label: "Travel Guides", href: "#guides" },
+    { label: "Travel Guides", href: "https://www.patreon.com/internationalzoe/shop" },
     { label: "Local Rentals", href: "/rentals" },
     { label: "Merchandise", href: "#merch" },
   ],

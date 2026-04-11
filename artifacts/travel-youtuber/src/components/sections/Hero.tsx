@@ -233,7 +233,9 @@ export default function Hero() {
             Book a Consultation · $150
           </a>
           <a
-            href="#guides"
+            href="https://www.patreon.com/internationalzoe/shop"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-bold tracking-wider px-10 py-4 text-sm"
             style={{
               border: "1px solid var(--gg-accent-slate)",

@@ -216,6 +216,30 @@ export default function Hero() {
           >
             by Intercontinental Zoe
           </div>
+          {/* Social icons under logo */}
+          <div className="hidden md:flex items-center gap-2 mt-2">
+            {SOCIAL_LINKS.map((s) => (
+              <a
+                key={s.href}
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={s.label}
+                className="flex items-center justify-center w-6 h-6 rounded-full transition-all duration-200"
+                style={{
+                  color: "rgba(255,255,255,0.45)",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.color = "var(--gg-accent-gold)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.color = "rgba(255,255,255,0.45)";
+                }}
+              >
+                {s.icon}
+              </a>
+            ))}
+          </div>
         </div>
 
         <div className="hidden md:flex items-center gap-8">
@@ -231,38 +255,6 @@ export default function Hero() {
               onMouseLeave={(e) => (e.currentTarget.style.color = "var(--gg-text-muted)")}
             >
               {link.label}
-            </a>
-          ))}
-        </div>
-
-        {/* Social icons */}
-        <div className="hidden md:flex items-center gap-3">
-          {SOCIAL_LINKS.map((s) => (
-            <a
-              key={s.href}
-              href={s.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={s.label}
-              className="flex items-center justify-center w-8 h-8 rounded-full transition-all duration-200"
-              style={{
-                color: "var(--gg-text-muted)",
-                border: "1px solid rgba(74,101,114,0.3)",
-                background: "rgba(5,7,10,0.4)",
-                backdropFilter: "blur(8px)",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.color = "var(--gg-accent-gold)";
-                e.currentTarget.style.borderColor = "var(--gg-accent-gold)";
-                e.currentTarget.style.background = "rgba(255,215,0,0.08)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.color = "var(--gg-text-muted)";
-                e.currentTarget.style.borderColor = "rgba(74,101,114,0.3)";
-                e.currentTarget.style.background = "rgba(5,7,10,0.4)";
-              }}
-            >
-              {s.icon}
             </a>
           ))}
         </div>

@@ -9,7 +9,7 @@ const LINKS = {
     { label: "Destinations", href: "https://www.youtube.com/@INTERNATIONALZOE/playlists" },
     { label: "From the Road", href: "#" },
     { label: "About Zoe", href: "/about" },
-    { label: "Contact", href: "#" },
+    { label: "Contact", href: "mailto:globalgallivantzoe@gmail.com" },
   ],
 };
 

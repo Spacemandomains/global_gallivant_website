@@ -3,18 +3,228 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Global Gallivant — Travel Consultations, Guides & Rentals by Intercontinental Zoe</title>
+
+    <!-- Primary SEO -->
+    <title>Global Gallivant | Travel Consultations, Guides & Rentals by Intercontinental Zoe</title>
+    <meta name="description" content="Global Gallivant by Intercontinental Zoe — 50 countries, 150 cities, 5 continents. Book a 1-on-1 travel consultation ($150), get destination guides, browse curated rentals, and shop limited merch." />
+    <meta name="keywords" content="travel consultation, travel YouTuber, International Zoe, Global Gallivant, destination guides, travel advice, Airbnb rentals, travel merch" />
+    <meta name="author" content="Intercontinental Zoe" />
+    <link rel="canonical" href="https://www.globalgallivant.com/" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="/logo.png" />
 
-    <meta property="og:title" content="Global Gallivant by Intercontinental Zoe" />
-    <meta property="og:description" content="Paid travel consultations, destination guides, local rentals, and merchandise. 21 countries. 39 cities. Real experience." />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Global Gallivant | Travel Consultations by Intercontinental Zoe" />
+    <meta property="og:description" content="50 countries. 150 cities. 5 continents. 1,800 videos. Book a 1-on-1 travel consultation, get real destination guides, and browse curated rentals — from someone who's actually been there." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://replit.com/public/images/opengraph.png" />
+    <meta property="og:url" content="https://www.globalgallivant.com/" />
+    <meta property="og:image" content="https://www.globalgallivant.com/logo.png" />
+    <meta property="og:image:alt" content="Global Gallivant by Intercontinental Zoe — travel consultations and guides" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Global Gallivant" />
+
+    <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@replit" />
-    <meta name="twitter:title" content="Global Gallivant by Intercontinental Zoe" />
-    <meta name="twitter:description" content="Paid travel consultations, destination guides, local rentals, and merchandise. 21 countries. 39 cities. Real experience." />
-    <meta name="twitter:image" content="https://replit.com/public/images/opengraph.png" />
+    <meta name="twitter:site" content="@intlzoe" />
+    <meta name="twitter:creator" content="@intlzoe" />
+    <meta name="twitter:title" content="Global Gallivant | Travel Consultations by Intercontinental Zoe" />
+    <meta name="twitter:description" content="50 countries. 150 cities. 5 continents. Book a 1-on-1 travel consultation, get real destination guides, and browse curated rentals." />
+    <meta name="twitter:image" content="https://www.globalgallivant.com/logo.png" />
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#FFD700" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Structured Data: WebSite + Organization + Person (Knowledge Graph) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://www.globalgallivant.com/#website",
+          "url": "https://www.globalgallivant.com/",
+          "name": "Global Gallivant",
+          "description": "Travel consultations, destination guides, local rentals, and merch by Intercontinental Zoe — 50 countries, 150 cities, 5 continents, 1,800 videos.",
+          "publisher": {
+            "@id": "https://www.globalgallivant.com/#organization"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://www.globalgallivant.com/?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.globalgallivant.com/#organization",
+          "name": "Global Gallivant",
+          "url": "https://www.globalgallivant.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.globalgallivant.com/logo.png"
+          },
+          "sameAs": [
+            "https://www.youtube.com/@INTERNATIONALZOE",
+            "https://www.instagram.com/international.zoe",
+            "https://www.tiktok.com/@international.zoe",
+            "https://www.facebook.com/intzoe",
+            "https://x.com/intlzoe",
+            "https://www.patreon.com/internationalzoe",
+            "https://kick.com/internationalzoe",
+            "https://www.rumble.com/internationalzoe"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "globalgallivantzoe@gmail.com",
+            "contactType": "customer service"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.globalgallivant.com/#person",
+          "name": "Intercontinental Zoe",
+          "alternateName": "International Zoe",
+          "url": "https://www.globalgallivant.com/about",
+          "jobTitle": "Travel Creator & Consultant",
+          "worksFor": {
+            "@id": "https://www.globalgallivant.com/#organization"
+          },
+          "sameAs": [
+            "https://www.youtube.com/@INTERNATIONALZOE",
+            "https://www.instagram.com/international.zoe",
+            "https://x.com/intlzoe"
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data: Service Offerings -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Travel Consultation with Intercontinental Zoe",
+      "provider": {
+        "@id": "https://www.globalgallivant.com/#person"
+      },
+      "url": "https://www.globalgallivant.com/consultation",
+      "description": "A focused 15-minute 1-on-1 travel consultation with Intercontinental Zoe. Get custom itinerary advice, insider safety tips, and budget breakdowns for 50+ destinations across 5 continents.",
+      "offers": {
+        "@type": "Offer",
+        "price": "150",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+
+    <!-- Structured Data: FAQPage (AEO — feeds AI answer engines & featured snippets) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Intercontinental Zoe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Intercontinental Zoe (also known as International Zoe) is a global travel creator and founder of Global Gallivant. He has traveled to 50 countries across 5 continents, visited 150 cities, and produced over 1,800 travel videos. Based originally from Harlem, New York, he offers paid travel consultations, destination guides, and curated rental listings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Global Gallivant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Global Gallivant is a travel lifestyle brand founded by Intercontinental Zoe. It offers 1-on-1 travel consultations ($150 for 15 minutes), digital destination guides, curated local rental properties on Airbnb and VRBO, and limited-edition merchandise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I book a travel consultation with Intercontinental Zoe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a 15-minute travel consultation with Intercontinental Zoe for $150. Pay via PayPal at globalgallivant.com/consultation, then send your receipt to globalgallivantzoe@gmail.com or DM on Instagram to schedule your time slot. No refunds — all sales final."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many countries has Intercontinental Zoe visited?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Intercontinental Zoe has visited 50 countries across 5 continents, including cities throughout Latin America, Africa, Europe, Southeast Asia, and the Caribbean. He has documented these travels across 1,800 videos on YouTube and other platforms."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Global Gallivant have vacation rentals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Global Gallivant offers curated vacation rental listings on Airbnb (including Zoe's personal listing and Hudson Valley properties) and VRBO. There is also an Expedia-listed property in Rio de Janeiro, Brazil. All properties are personally vetted by Intercontinental Zoe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I find Intercontinental Zoe's travel videos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Intercontinental Zoe's travel videos are available on YouTube at @INTERNATIONALZOE, with 1,800+ videos covering 50 countries. He is also active on Instagram (@international.zoe), TikTok (@international.zoe), Facebook, X (@intlzoe), Kick, Rumble, and Patreon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a Global Gallivant AI travel assistant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Global Gallivant has a custom GPT available in the ChatGPT Explore GPT Store, built on Intercontinental Zoe's travel knowledge. It can help plan itineraries, suggest destinations, compare city vibes, and give intentional travel advice."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data: HowTo — Booking a Consultation (AEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Book a Travel Consultation with Intercontinental Zoe",
+      "description": "Book a 15-minute 1-on-1 travel consultation with Intercontinental Zoe of Global Gallivant for $150.",
+      "totalTime": "PT5M",
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "150"
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Complete Payment",
+          "text": "Pay $150 via PayPal by visiting globalgallivant.com/consultation and clicking the PayPal button.",
+          "url": "https://www.globalgallivant.com/consultation"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Send Your Receipt",
+          "text": "After payment, message Zoe on Instagram (@international.zoe) or email globalgallivantzoe@gmail.com with your PayPal receipt and your preferred time slot.",
+          "url": "https://www.globalgallivant.com/consultation"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Get on the Call",
+          "text": "Zoe confirms your 15-minute slot and you connect via video or voice call for personalized travel advice.",
+          "url": "https://www.globalgallivant.com/consultation"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

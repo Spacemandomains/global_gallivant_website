@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.globalgallivant.com/sitemap.xml
+
+# Block AI training scrapers — allow search/retrieval bots
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# Allow retrieval agents (these power AI answers, not training)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

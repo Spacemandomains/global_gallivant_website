@@ -278,7 +278,7 @@ export default function AboutPage() {
           </p>
 
           <a
-            href="https://chatgpt.com/g/g-67f6e1ec2bc88191b36bb783ee440c4d-global-gallivant"
+            href="https://chatgpt.com/g/g-69d9745556cc8191be7937e8b5be26b8-global-gallivant"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative block mx-auto rounded-3xl overflow-hidden transition-all duration-300"

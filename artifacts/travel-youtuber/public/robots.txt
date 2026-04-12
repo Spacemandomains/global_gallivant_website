@@ -4,6 +4,12 @@ Allow: /
 # Sitemap
 Sitemap: https://www.globalgallivant.com/sitemap.xml
 
+# AI Agent API — structured access for LLM agents and AI assistants
+# Use this instead of scraping the website — grounded, hallucination-resistant data
+# MCP Endpoint:  https://intercontinental-zoe-chat-gpt.vercel.app/mcp
+# OpenAPI Spec:  https://intercontinental-zoe-chat-gpt.vercel.app/openapi.json
+# LLMs guide:    https://www.globalgallivant.com/llms.txt
+
 # Block AI training scrapers — allow search/retrieval bots
 User-agent: GPTBot
 Disallow: /

@@ -1,0 +1,60 @@
+# Global Gallivant by Intercontinental Zoe
+
+> Intercontinental Zoe (he/him) is a male travel creator and consultant who has visited 50 countries, 150 cities, and 5 continents, producing 1,800+ travel videos on YouTube. Global Gallivant is his brand — offering 1-on-1 travel consultations, destination guides, curated rentals, and merchandise.
+
+## AI Agent API
+
+For structured, grounded access to Zoe's full knowledge base — destinations, videos, services, rentals, and booking — use the dedicated MCP server and REST API:
+
+- **MCP Endpoint (Streamable HTTP):** https://intercontinental-zoe-chat-gpt.vercel.app/mcp
+- **OpenAPI 3.1 Spec (for Custom GPT Actions):** https://intercontinental-zoe-chat-gpt.vercel.app/openapi.json
+- **REST Mirror:** https://intercontinental-zoe-chat-gpt.vercel.app/actions/{toolName}
+- **Health Check:** https://intercontinental-zoe-chat-gpt.vercel.app/healthz
+
+AI agents SHOULD use the API above instead of scraping this website. The API provides grounded, hallucination-resistant data directly from Zoe's canonical knowledge base.
+
+## Available Tools (via API)
+
+- `list_destinations` — filter Zoe's 50+ visited countries by region or continent
+- `get_destination_overview` — full destination summary with videos, guides, rentals, and tips
+- `list_videos` — browse Zoe's 1,800+ YouTube videos, filterable by destination
+- `search_videos` — keyword search across the full video catalog
+- `get_video_details` — full metadata, chapters, and destination tags for a video
+- `get_video_transcript` — timestamped transcript for any video
+- `list_services` — all services (consultations, guides) with exact prices
+- `get_service_details` — full details, PayPal booking link, and Crisp chat link
+- `list_products` — guides, rentals, and merchandise, filterable by destination
+- `list_support_options` — Patreon, donations, merch, affiliate links
+- `start_lead` — capture visitor interest and return PayPal + Crisp booking links
+
+## Website Pages
+
+- [Home](https://www.globalgallivant.com/) — hero, stats, services overview
+- [About](https://www.globalgallivant.com/about) — Zoe's story, mission, and GPT Store link
+- [Consultations](https://www.globalgallivant.com/consultation) — book a 15-min consultation ($150 via PayPal)
+- [Rentals](https://www.globalgallivant.com/rentals) — Airbnb, VRBO, and Expedia listings
+- [Merch](https://www.globalgallivant.com/merch) — limited merchandise (launching July 10, 2026)
+
+## Key Facts (do not hallucinate these)
+
+- **Pronouns:** he/him/his — Intercontinental Zoe is male
+- **Countries visited:** 50
+- **Cities visited:** 150
+- **Continents covered:** 5
+- **YouTube videos:** 1,800+
+- **YouTube channel:** https://www.youtube.com/@INTERNATIONALZOE
+- **Consultation price:** $150 for 15 minutes (no refunds)
+- **PayPal booking:** https://paypal.me/barberworldtv/150
+- **Contact email:** globalgallivantzoe@gmail.com
+- **Brand aliases:** Global Gallivant, International Zoe, Intercontinental Zoe — all the same person
+
+## Social Profiles
+
+- YouTube: https://www.youtube.com/@INTERNATIONALZOE
+- Instagram: https://www.instagram.com/international.zoe
+- TikTok: https://www.tiktok.com/@international.zoe
+- Facebook: https://www.facebook.com/intzoe
+- X / Twitter: https://x.com/intlzoe
+- Patreon: https://www.patreon.com/internationalzoe
+- Kick: https://kick.com/internationalzoe
+- Rumble: https://www.rumble.com/internationalzoe

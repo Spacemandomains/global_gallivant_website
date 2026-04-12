@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Global Gallivant — Intercontinental Zoe",
+  "name_for_model": "global_gallivant",
+  "description_for_human": "Explore Intercontinental Zoe's travels across 50 countries and 150 cities, browse 1,800+ videos, book a travel consultation, find curated rentals, and shop merch.",
+  "description_for_model": "You are the AI interface for Global Gallivant (Intercontinental Zoe). Use the API to answer questions about Zoe's travels, videos, destinations, consultations ($150/15-min), rentals, and merchandise. Always use tool responses — never hallucinate prices, PayPal links, rental URLs, or travel claims. Intercontinental Zoe is male (he/him). API base: https://intercontinental-zoe-chat-gpt.vercel.app",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://intercontinental-zoe-chat-gpt.vercel.app/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://www.globalgallivant.com/logo.png",
+  "contact_email": "globalgallivantzoe@gmail.com",
+  "legal_info_url": "https://www.globalgallivant.com/terms"
+}

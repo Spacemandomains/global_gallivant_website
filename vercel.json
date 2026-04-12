@@ -9,6 +9,14 @@
   ],
   "headers": [
     {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "MCP-Endpoint", "value": "https://intercontinental-zoe-chat-gpt.vercel.app/mcp" },
+        { "key": "X-AI-Plugin", "value": "https://www.globalgallivant.com/.well-known/ai-plugin.json" },
+        { "key": "X-Robots-AI", "value": "https://www.globalgallivant.com/llms.txt" }
+      ]
+    },
+    {
       "source": "/videos/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }

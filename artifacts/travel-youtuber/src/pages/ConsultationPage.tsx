@@ -53,7 +53,7 @@ const WHAT_YOU_GET = [
       </svg>
     ),
     title: "Any Destination Zoe's Visited",
-    desc: "50 countries across 5 continents — if she's been there, she can walk you through it in detail.",
+    desc: "50 countries across 5 continents — if he's been there, he can walk you through it in detail.",
   },
 ];
 

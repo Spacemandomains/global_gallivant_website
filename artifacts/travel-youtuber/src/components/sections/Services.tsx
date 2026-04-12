@@ -41,7 +41,7 @@ const SERVICES = [
     title: "Local Rentals",
     price: "Varies by destination",
     description:
-      "Accommodations, vehicles, and curated local experiences at Zoe's visited destinations — vetted personally. Skip the search. Rent what she actually used and trusted.",
+      "Accommodations, vehicles, and curated local experiences at Zoe's visited destinations — vetted personally. Skip the search. Rent what he actually used and trusted.",
     cta: "Browse Rentals",
     href: "/rentals",
     featured: false,

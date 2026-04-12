@@ -108,13 +108,13 @@ export default function About() {
 
             <div className="space-y-4">
               <p className="text-base leading-relaxed" style={{ color: "var(--gg-text-muted)" }}>
-                Zoe isn't your typical travel content creator — she's a full-time global citizen who has spent years living in, working from, and deeply exploring 50 countries across 5 continents.
+                Zoe isn't your typical travel content creator — he's a full-time global citizen who has spent years living in, working from, and deeply exploring 50 countries across 5 continents.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "var(--gg-text-muted)" }}>
-                From the street food stalls of Ho Chi Minh City to the colonial plazas of Cartagena, every recommendation, guide, and consultation comes from places she's actually walked, eaten, slept, and gotten lost in.
+                From the street food stalls of Ho Chi Minh City to the colonial plazas of Cartagena, every recommendation, guide, and consultation comes from places he's actually walked, eaten, slept, and gotten lost in.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "var(--gg-text-muted)" }}>
-                Global Gallivant is her way of turning real-world experience into actionable help for travelers who want more than a checklist — they want to actually feel somewhere.
+                Global Gallivant is his way of turning real-world experience into actionable help for travelers who want more than a checklist — they want to actually feel somewhere.
               </p>
             </div>
 

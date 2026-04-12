@@ -128,7 +128,7 @@ export default function AskZoe() {
             <span className="text-transparent" style={{ WebkitTextStroke: "1.5px var(--gg-accent-gold)" }}> Anything.</span>
           </h2>
           <p className="text-base max-w-lg mx-auto" style={{ color: "var(--gg-text-muted)" }}>
-            Destinations, services, pricing, travel tips — get real answers from Zoe's AI, trained on her 50-country experience.
+            Destinations, services, pricing, travel tips — get real answers from Zoe's AI, trained on his 50-country experience.
           </p>
         </motion.div>
 

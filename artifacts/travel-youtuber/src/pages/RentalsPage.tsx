@@ -17,7 +17,7 @@ const PROPERTIES = [
     platform: "airbnb",
     name: "Intercontinental Zoe's Place",
     location: "Zoe's Personal Listing",
-    desc: "Stay where Zoe stays. A handpicked space that reflects her standard for comfort, location, and everything a traveler actually needs.",
+    desc: "Stay where Zoe stays. A handpicked space that reflects his standard for comfort, location, and everything a traveler actually needs.",
     url: "https://airbnb.com/h/internationalzoe",
     badge: "Airbnb · Zoe's Pick",
   },

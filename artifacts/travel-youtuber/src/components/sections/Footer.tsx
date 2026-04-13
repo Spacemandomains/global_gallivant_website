@@ -7,7 +7,7 @@ const LINKS = {
   ],
   Explore: [
     { label: "Destinations", href: "https://www.youtube.com/@INTERNATIONALZOE/playlists" },
-    { label: "From the Road", href: "/from-the-road" },
+    { label: "From the Road with Zoe", href: "/from-the-road" },
     { label: "About Zoe", href: "/about" },
     { label: "Contact", href: "mailto:globalgallivantzoe@gmail.com" },
   ],

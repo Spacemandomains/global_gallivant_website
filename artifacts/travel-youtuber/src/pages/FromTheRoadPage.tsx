@@ -153,7 +153,7 @@ function MobileMiniPlayer() {
         {/* Info */}
         <div className="flex-1 min-w-0">
           <p className="text-sm font-bold truncate" style={{ color: "var(--gg-text-primary)" }}>
-            From the Road
+            From the Road with Zoe
           </p>
           <p className="text-xs truncate" style={{ color: playing ? "#1ED760" : "var(--gg-text-muted)" }}>
             {playing ? "Playing on Spotify ·" : ""} Intercontinental Zoe
@@ -264,14 +264,19 @@ export default function FromTheRoadPage() {
             className="text-4xl md:text-5xl font-black tracking-tight mb-4"
             style={{ fontFamily: "var(--font-display)", color: "var(--gg-text-primary)" }}
           >
-            From the Road
+            From the Road with Zoe
           </h1>
-          <p
-            className="text-lg mb-12"
-            style={{ color: "var(--gg-text-muted)" }}
-          >
-            Stories, lessons, and dispatches from 50 countries — straight from Intercontinental Zoe.
-          </p>
+          <div className="mb-12 space-y-5">
+            <p className="text-lg leading-relaxed" style={{ color: "var(--gg-text-muted)" }}>
+              <span style={{ color: "var(--gg-text-primary)", fontWeight: 700 }}>"From the Road with Zoe"</span> is an immersive audio experience that brings the energy of global travel directly to your ears. Whether you're browsing the site, working out, jogging, or just moving through your day, this is something you can press play on and let it ride.
+            </p>
+            <p className="text-lg leading-relaxed" style={{ color: "var(--gg-text-muted)" }}>
+              Blending real audio from street interviews, nightlife moments, and personal experiences from around the world, Zoe captures what it truly feels like to be outside — meeting new people, discovering fascinating locations, and living life with style and good vibes.
+            </p>
+            <p className="text-lg leading-relaxed" style={{ color: "var(--gg-text-muted)" }}>
+              Guided by Zoe's signature smooth baritone voice — it's like music.
+            </p>
+          </div>
 
           {/* Desktop: full embed */}
           <div
@@ -310,7 +315,7 @@ export default function FromTheRoadPage() {
             </div>
             <div>
               <p className="font-black text-xl mb-1" style={{ color: "var(--gg-text-primary)" }}>
-                From the Road
+                From the Road with Zoe
               </p>
               <p className="text-sm" style={{ color: "var(--gg-text-muted)" }}>
                 Intercontinental Zoe · Global Gallivant Podcast
